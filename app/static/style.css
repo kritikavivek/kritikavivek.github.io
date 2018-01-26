@@ -1,0 +1,126 @@
+/*
+Theme Name: Helen and Josh
+Author: Fuzzco
+Author URI: http://fuzzco.com/
+Version: 1.0
+*/
+
+body {background:#e4f0f1;}
+
+/* 
+
+green 7ca088
+blue e4f0f1
+brown a89680
+*/
+
+#credit {font-family:Georgia, serif;font-size:11px;color:#000;position:fixed;bottom:10px;right:10px;}
+#credit a {color:#000;text-decoration:none;}
+#credit a:hover {color:#666;text-decoration:none;}
+#credit a:active {color:#000;text-decoration:none;}
+
+#thank-you {font-family:Georgia, serif;font-size:14px;color:#000;position:fixed;bottom:10px;left:10px;text-align:left;}
+#thank-you a {color:#603212;text-decoration:none;}
+#thank-you a:hover {color:#666;text-decoration:none;}
+#thank-you a:active {color:#000;text-decoration:none;}
+
+
+#night{background: url('Images/night.png') repeat-x bottom;width:100%;height:450px;position:absolute;top:0;left:0;z-index:3000;}
+/*#topnight{background: #1a3162;width:100%;height:500px;position:absolute;top:0;left:0;z-index:3000;}*/
+#night-stars{background: url('Images/stars3.gif');width:100%;height:450px;position:absolute;top:0;left:0;z-index:3001;}
+#moon{position:absolute;top:50px;left:900px;width:85px;height:130px;background:url('Images/moon.png');z-index:9999;}
+
+#container{position:absolute;left:0;right:0;margin:0 auto;text-align:center;width:1000px;height:5700px;background:url('Images/bg.gif') no-repeat bottom center;}
+#thank-you-container {background:url('thank-you/bg.jpg') left bottom no-repeat;position:absolute;bottom:0;width:999px;height:1224px;}
+.clear{clear:both;}
+.form{position:absolute;bottom:420px;left:60px;}
+.done{position:absolute;bottom:1260px;left:20px;width:999px;}
+
+/*#tree12{position:absolute;bottom:0;left:-100px;z-index:1;height:564px;width:330px;background:url('Images/tree.gif');filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8; }
+*/
+#rain{position:absolute;top:5180px;left:770px;z-index:10;width:80px;height:500px;}
+#rain .rain1 {height:400px;width:5px;background:url('Images/rain.gif') repeat;margin:10px 5px 0 0; float:left;}
+#rain .rain2 {height:402px;width:5px;background:url('Images/rain.gif') repeat;margin:2px 5px 0 0; float:left;}
+#rain .rain3 {height:400px;width:5px;background:url('Images/rain.gif') repeat;margin:5px 8px 0 0; float:left;}
+#rain .rain4 {height:400px;width:5px;background:url('Images/rain.gif') repeat;margin:0 3px 0 0; float:left;}
+#rain .rain5 {height:400px;width:5px;background:url('Images/rain.gif') repeat;margin:2px 5px 0 0; float:left;}
+#rain .rain6 {height:400px;width:5px;background:url('Images/rain.gif') repeat;margin:5px 8px 0 0; float:left;}
+
+#cloud1 {position:absolute;top:4900px;left:50px;width:59px;height:40px;background:url('Images/cloud1.gif');}
+#cloud2 {position:absolute;top:4200px;left:850px;width:68px;height:36px;background:url('Images/cloud2.gif');}
+#cloud3 {position:absolute;top:4900px;left:850px;width:46px;height:21px;background:url('Images/cloud3.gif');}
+#cloud4 {position:absolute;top:3700px;left:650px;width:59px;height:40px;background:url('Images/cloud1.gif');}
+#cloud5 {position:absolute;top:3400px;left:200px;width:68px;height:36px;background:url('Images/cloud2.gif');}
+#cloud6 {position:absolute;top:3000px;left:250px;width:46px;height:21px;background:url('Images/cloud3.gif');}
+#cloud7 {position:absolute;top:2150px;left:720px;width:59px;height:40px;background:url('Images/cloud1.gif');}
+#cloud8 {position:absolute;top:2020px;left:10px;width:46px;height:21px;background:url('Images/cloud3.gif');}
+#cloud9 {position:absolute;top:1600px;left:350px;width:59px;height:40px;background:url('Images/cloud1.gif');}
+#cloud10 {position:absolute;top:1300px;left:750px;width:68px;height:36px;background:url('Images/cloud2.gif');}
+#cloud11 {position:absolute;top:1320px;left:590px;width:46px;height:21px;background:url('Images/cloud3.gif');}
+#cloud12 {position:absolute;top:1010px;left:900px;width:59px;height:40px;background:url('Images/cloud1.gif');}
+#cloud13 {position:absolute;top:880px;left:200px;width:68px;height:36px;background:url('Images/cloud2.gif');}
+#cloud14 {position:absolute;top:620px;left:710px;width:46px;height:21px;background:url('Images/cloud3.gif');}
+#cloud15 {position:absolute;top:420px;left:100px;width:68px;height:36px;background:url('Images/cloud2.gif');}
+
+
+
+#ants {position:absolute;top:5578px;left:215px;width:139px;height:64px;background:url('Images/ants.gif');}
+#bee1 {position:absolute;top:5570px;left:100px;width:21px;height:29px;background:url('Images/bee1.gif');}
+#bee2 {position:absolute;top:5535px;left:732px;width:24px;height:25px;background:url('Images/bee2.gif');}
+#bird1 {position:absolute;top:4570px;left:100px;width:57px;height:47px;background:url('Images/bird1.gif');}
+#bird2 {position:absolute;top:4535px;left:832px;width:57px;height:34px;background:url('Images/bird2.gif');}
+#bird3 {position:absolute;top:4135px;left:832px;width:57px;height:34px;background:url('Images/bird3.gif');}
+#bird4 {position:absolute;top:2770px;left:250px;width:57px;height:47px;background:url('Images/bird1.gif');}
+#bird5 {position:absolute;top:3700px;left:732px;width:57px;height:34px;background:url('Images/bird2.gif');}
+#bird6 {position:absolute;top:3710px;left:802px;width:57px;height:34px;background:url('Images/bird3.gif');}
+#bird7 {position:absolute;top:3110px;left:50px;width:57px;height:47px;background:url('Images/bird1.gif');}
+#bird8 {position:absolute;top:2900px;left:182px;width:57px;height:34px;background:url('Images/bird2.gif');}
+#bird9 {position:absolute;top:1900px;left:652px;width:57px;height:34px;background:url('Images/bird3.gif');}
+#bird10 {position:absolute;top:1780px;left:200px;width:57px;height:47px;background:url('Images/bird1.gif');}
+#bird11 {position:absolute;top:1500px;left:612px;width:57px;height:34px;background:url('Images/bird2.gif');}
+#bird12 {position:absolute;top:1400px;left:302px;width:57px;height:34px;background:url('Images/bird3.gif');}
+#bird13 {position:absolute;top:950px;left:100px;width:57px;height:47px;background:url('Images/bird1.gif');}
+#bird14 {position:absolute;top:700px;left:602px;width:57px;height:34px;background:url('Images/bird2.gif');}
+#bird15 {position:absolute;top:400px;left:452px;width:57px;height:34px;background:url('Images/bird3.gif');}
+
+#carriage {position:absolute;top:2520px;left:540px;width:246px;height:195px;background:url('Images/carriage.gif');}
+#chirp {position:absolute;top:2935px;left:505px;width:107px;height:130px;background:url('Images/chirp.gif');}
+#cupid {position:absolute;top:3475px;left:255px;width:63px;height:68px;background:url('Images/cupid.gif');}
+#cupid_swinging {position:absolute;top:3550px;left:305px;width:137px;height:195px;background:url('Images/cupid_swinging.gif');}
+#heart {position:absolute;top:2202px;left:492px;width:35px;height:31px;background:url('Images/heart.gif');}
+#horse {position:absolute;top:1652px;left:528px;width:147px;height:232px;background:url('Images/horse.gif');}
+#kiss {position:absolute;top:4332px;left:645px;width:54px;height:86px;background:url('Images/kiss.gif');}
+#kissing {position:absolute;top:4252px;left:590px;width:166px;height:69px;background:url('Images/k-i-s-s-i-n-g.gif');}
+/*#registry {position:absolute;top:522px;left:600px;width:280px;height:53px;background:url('Images/registry.gif');}
+#rsvp {position:absolute;top:400px;left:600px;width:135px;height:47px;background:url('Images/rsvp.gif');}*/
+/*#star1 {position:absolute;top:800px;left:400px;width:28px;height:48px;background:url('Images/star1.gif');}
+#star2 {position:absolute;top:1000px;left:300px;width:28px;height:33px;background:url('Images/star2.gif');}
+#star3 {position:absolute;top:850px;left:200px;width:28px;height:48px;background:url('Images/star1.gif');}
+#star4 {position:absolute;top:920px;left:800px;width:28px;height:33px;background:url('Images/star2.gif');}*/
+#tire {position:absolute;top:5530px;left:355px;width:57px;height:58px;background:url('Images/tire.gif');}
+#tree-topper{position:absolute;top:485px;left:470px;width:73px;height:114px;background:url('Images/tree-topper.gif');}
+
+
+
+#bottom {position:absolute;bottom:0;}
+#scroll {position:absolute;bottom:150px;right:10px;width:131px;height:140px;background:url('Images/scroll.gif');}
+
+
+
+#scroll {position:fixed;bottom:20px;right:20px;width:131px;height:140px;background:url('Images/scroll.gif');}
+
+
+/* TEXT */
+
+#t_now {position:absolute;top:3275px;left:595px;width:396px;height:324px;background:url('Images/t_now.gif');}
+#t_hj {position:absolute;top:5375px;left:95px;width:246px;height:154px;background:url('Images/t_hj.gif') no-repeat;background-size: 100% 100%;}
+#t_sittin {position:absolute;top:4475px;left:35px;width:354px;height:300px;background:url('Images/t_sittin.gif');}
+#t_first {position:absolute;top:3815px;left:195px;width:195px;height:86px;background:url('Images/t_first.gif');}
+#t_party {position:absolute;top:2515px;left:95px;width:317px;height:299px;background:url('Images/t_party.gif');}
+#t_3rdday {position:absolute;top:1965px;left:595px;width:200px;height:100px;background:url('Images/t_3rdday.gif') no-repeat;background-size: 100% 100%;}
+#t_12month {position:absolute;top:1665px;left:95px;width:155px;height:100px;background:url('Images/t_12month.gif') no-repeat;background-size: 100% 100%;}
+#t_2010 {position:absolute;top:1365px;left:595px;width:300px;height:100px;background:url('Images/t_2010.gif') no-repeat;background-size: 100% 100%;}
+#t_7pm {position:absolute;top:1165px;left:255px;width:108px;height:51px;background:url('Images/t_7pm.gif');}
+#t_141 {position:absolute;top:630px;font-weight:bold;color:#555;left:23px;width:320px;height:104px;font-size: 1.8em;font-style: italic;}
+#t_cantwait{position:absolute;top:150px;left:240px;width:518px;height:89px;background:url('Images/t_cantwait.png');z-index:9999;}
+
